@@ -7,7 +7,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-  origin: ["http://localhost:3000", "https://sneakers-48gn.onrender.com"],
+  origin: ["https://sneakers-48gn.onrender.com"],
   methods: ["POST", "GET"],
   credentials: true
 }));
